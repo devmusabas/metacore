@@ -1,0 +1,9 @@
+/node_modules
+/.next
+/next
+/dist
+
+*.yaml
+*.yml
+
+tsconfig.json

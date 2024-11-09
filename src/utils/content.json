@@ -1,0 +1,188 @@
+{
+  "home": {
+    "title": "Welcome to MetaCORE Education",
+    "content": "At MetaCORE Education, we are a dedicated online tuition service, committed to helping students reach their full academic potential. Whether you're preparing for GCSEs, A Levels, or seeking support in other subjects, we are here to guide you every step of the way."
+  },
+  "courses": {
+    "title": "Our Courses",
+    "content": "We provide specialised tuition in a variety of subjects to help students excel in their academic journey.",
+    "subjects": [
+      "English Language",
+      "English Literature",
+      "Mathematics",
+      "Physics",
+      "Chemistry",
+      "Biology"
+    ],
+    "subjectDescriptions": {
+      "English Language": "Develop strong communication skills and master the nuances of the English language.",
+      "English Literature": "Explore classic and contemporary literature, enhancing analytical and interpretative skills.",
+      "Mathematics": "Build a solid foundation in mathematical concepts and problem-solving techniques.",
+      "Physics": "Understand the fundamental laws that govern the universe and their practical applications.",
+      "Chemistry": "Delve into the world of atoms, molecules, and chemical reactions.",
+      "Biology": "Explore the science of life, from cellular processes to ecosystem dynamics."
+    }
+  },
+  "personalizedLearning": {
+    "title": "Personalised Learning for Every Student",
+    "content": "At MetaCORE Education, we understand that each student has unique strengths, weaknesses, and learning styles. Our personalised approach ensures that every student receives the support they need to succeed.",
+    "features": [
+      {
+        "title": "Initial Assessment",
+        "description": "We begin with a comprehensive assessment to determine the appropriate starting point for each student's studies."
+      },
+      {
+        "title": "Tailored Curriculum",
+        "description": "Based on the assessment results, we create a personalised curriculum tailored to the student's academic needs and goals."
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "We continuously monitor each student's progress, providing regular feedback and adjusting the learning plan as needed."
+      }
+    ]
+  },
+  "tutors": {
+    "title": "Our Professional Tutors",
+    "content": "Our tutors are not only experienced but also passionate about teaching. They provide focused, one-on-one online sessions that are designed to build confidence and understanding in the subject matter.",
+    "profiles": [
+      {
+        "name": "Dr. Sarah Johnson",
+        "specialization": "Mathematics & Physics",
+        "image": "/images/tutor-sarah.jpg",
+        "description": "With over 10 years of teaching experience, Dr. Johnson specializes in making complex mathematical and physical concepts accessible to students of all levels."
+      },
+      {
+        "name": "Mr. David Chen",
+        "specialization": "English Language & Literature",
+        "image": "/images/tutor-david.jpg",
+        "description": "A published author and experienced educator, Mr. Chen is passionate about nurturing students' love for language and literature."
+      },
+      {
+        "name": "Dr. Emily Patel",
+        "specialization": "Biology & Chemistry",
+        "image": "/images/tutor-emily.jpg",
+        "description": "With a PhD in Biochemistry, Dr. Patel brings real-world scientific experience to her engaging and informative lessons."
+      }
+    ]
+  },
+  "mentoring": {
+    "title": "Mentoring and Progress Tracking",
+    "content": "In addition to tutoring, we offer mentoring services to help students stay on track and develop a growth mindset.",
+    "services": [
+      {
+        "title": "Personal Academic Mentors",
+        "description": "Each student is assigned a personal academic mentor who provides guidance, support, and motivation throughout their learning journey."
+      },
+      {
+        "title": "Progress Monitoring",
+        "description": "Our mentors closely monitor each student's progress, providing regular feedback and ensuring they are on the right path towards achieving their academic targets."
+      },
+      {
+        "title": "Motivational Support",
+        "description": "We help students develop effective study habits, time management skills, and a positive attitude towards learning."
+      }
+    ]
+  },
+  "counselling": {
+    "title": "Psychological Support and Counselling",
+    "content": "Academic success is closely linked to emotional well-being. We offer counselling and support services to help students cope with stress, anxiety, and other challenges that may impact their studies.",
+    "services": [
+      {
+        "title": "Emotional Well-being",
+        "description": "Our counsellors provide a safe space for students to discuss their concerns and develop strategies for maintaining emotional balance."
+      },
+      {
+        "title": "Stress Management",
+        "description": "We teach students effective techniques for managing academic stress and maintaining a healthy work-life balance."
+      },
+      {
+        "title": "Counselling Services",
+        "description": "Professional counsellors are available to help students address personal issues that may be affecting their academic performance."
+      }
+    ]
+  },
+  "whyMetacore": {
+    "title": "Why Choose MetaCORE Education?",
+    "content": "MetaCORE Education offers a unique blend of personalized learning, expert tutoring, and comprehensive support to ensure every student reaches their full potential.",
+    "reasons": [
+      {
+        "title": "Tailored Programmes",
+        "description": "We create customized learning plans that cater to each student's individual needs and goals, ensuring maximum effectiveness and progress.",
+        "points": [
+          "Personalized Learning Plans",
+          "Flexible Scheduling",
+          "Individual Progress Tracking",
+          "Adaptive Learning Paths"
+        ]
+      },
+      {
+        "title": "Expert Tutors",
+        "description": "Our tutors are subject specialists with years of teaching experience and a passion for education, dedicated to your success.",
+        "points": [
+          "Qualified Professionals",
+          "Subject Specialists",
+          "Continuous Development",
+          "Proven Track Record"
+        ]
+      },
+      {
+        "title": "Holistic Approach",
+        "description": "We go beyond academic learning, supporting students with mentoring and mental well-being services for comprehensive development.",
+        "points": [
+          "Academic & Personal Growth",
+          "Wellbeing Support",
+          "Comprehensive Development",
+          "Life Skills Training"
+        ]
+      },
+      {
+        "title": "Convenient Online Learning",
+        "description": "Our flexible online sessions allow students to learn from the comfort of their own homes, with interactive and engaging content.",
+        "points": [
+          "Learn From Anywhere",
+          "Interactive Platform",
+          "Real-time Feedback",
+          "Advanced Learning Tools"
+        ]
+      }
+    ]
+  },
+  "getStarted": {
+    "title": "Get Started with MetaCORE Education",
+    "content": "Begin your journey towards academic excellence with MetaCORE Education. Here's how to get started:",
+    "steps": [
+      {
+        "title": "Book an Assessment",
+        "description": "Schedule your initial assessment to determine your current level and learning needs.",
+        "buttonText": "Book Now"
+      },
+      {
+        "title": "View Our Study Plans",
+        "description": "Explore our range of study plans and choose the one that best fits your goals.",
+        "buttonText": "View Plans"
+      },
+      {
+        "title": "Join a Lesson",
+        "description": "Experience a trial lesson with one of our expert tutors.",
+        "buttonText": "Try a Lesson"
+      }
+    ]
+  },
+  "newsletter": {
+    "title": "Stay Updated with Our Newsletter",
+    "content": "Subscribe to our newsletter to receive the latest updates on our courses, study tips, and educational resources."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "content": "Have questions or need more information? Get in touch with us!",
+    "email": "info@metacore-education.com",
+    "phone": "+44 123 456 7890",
+    "address": "123 Education Street, London, UK",
+    "socialMedia": {
+      "facebook": "https://www.facebook.com/metacoreeducation",
+      "twitter": "https://www.twitter.com/metacoreedu",
+      "instagram": "https://www.instagram.com/metacoreeducation",
+      "linkedin": "https://www.linkedin.com/company/metacore-education"
+    }
+  }
+}
