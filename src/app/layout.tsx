@@ -16,7 +16,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="flex min-h-screen w-full flex-1 flex-col overflow-hidden bg-background text-primary">
+        <div className="flex w-full flex-col items-start justify-start bg-background text-primary">
           {children}
         </div>
       </body>

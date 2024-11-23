@@ -49,7 +49,7 @@ const ValueCard = ({ value }: { value: MetacoreValue }): JSX.Element => {
       className={cn(
         'flex flex-col items-center p-5 text-center',
         'rounded-xl bg-white',
-        'border border-metacore-primary/5 shadow-sm',
+        'border border-metacore-primary/5 shadow-md',
         'w-[220px] space-y-3'
       )}
     >
@@ -81,7 +81,7 @@ const WhyMetacore = (): JSX.Element => {
         </p>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="flex flex-wrap justify-center gap-6 p-8">
         {values.map((value) => (
           <ValueCard key={value.id} value={value} />
         ))}

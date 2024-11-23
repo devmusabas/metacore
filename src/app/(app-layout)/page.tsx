@@ -3,6 +3,8 @@
 import { Homepage } from '@/components/Homepage';
 
 // import WhyMetacore from '@/components/WhyMetacore';
+
+// import WhyMetacore from '@/components/WhyMetacore';
 // import { createClient } from '@/utils/supabase/server';
 
 export default async function Page(): Promise<JSX.Element> {
@@ -24,7 +26,9 @@ export default async function Page(): Promise<JSX.Element> {
           {todos?.map(({ todo }) => <li key={todo}>{todo}</li>)}
         </ul>
       </div> */}
+
       {/* <WhyMetacore /> */}
+
       <Homepage />
     </>
   );

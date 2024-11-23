@@ -12,9 +12,9 @@ const socialIcons = {
 
 export default function Footer(): JSX.Element {
   return (
-    <footer className="bg-gray-800 py-8 text-white">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+    <footer className="mx-auto flex w-full flex-col gap-8 bg-gray-800 px-8 py-8 pt-12 text-white sm:px-16 sm:py-16 sm:pt-16">
+      <div className="w-full">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
           <div>
             <h3 className="mb-4 text-xl font-bold">Quick Links</h3>
             <ul className="space-y-2">
