@@ -1,7 +1,10 @@
 {
   "home": {
     "title": "Welcome to MetaCORE Education",
-    "content": "At MetaCORE Education, we are a dedicated online tuition service, committed to helping students reach their full academic potential. Whether you're preparing for GCSEs, A Levels, or seeking support in other subjects, we are here to guide you every step of the way."
+    "content": [
+      "At MetaCORE Education, we are a dedicated online tuition service, committed to helping students reach their full academic potential.",
+      "Whether you're preparing for GCSEs, A Levels, or seeking support in other subjects, we are here to guide you every step of the way."
+    ]
   },
   "courses": {
     "title": "Our Courses",

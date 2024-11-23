@@ -5,8 +5,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        nunito: ['"Nunito", sans-serif'],
-        poppins: ['"Poppins", sans-serif'],
+        nunito: ['Nunito", sans-serif'],
+        poppins: ['Poppins", sans-serif'],
+      },
+      screens: {
+        xxs: '470px',
+        xs: '570px',
       },
       colors: {
         primary: {
@@ -136,40 +140,36 @@ module.exports = {
           5: 'hsl(var(--chart-5))',
         },
         metacore: {
-          primary: '#f03f2bff', // Add custom primary color
-          secondary: '#453599ff', // Add custom secondary color
+          primary: '#f03f2bff',
+          secondary: '#453599ff',
         },
-        // metacore: {
-        //   secondary: {
-        //     50: '#ECEAF7',
-        //     100: '#D9D5EF',
-        //     200: '#B3ABDF',
-        //     300: '#8D81CF',
-        //     400: '#6758BF',
-        //     500: '#453599', // Main primary
-        //     600: '#372A7A',
-        //     700: '#29205C',
-        //     800: '#1B153D',
-        //     900: '#0E0B1F',
-        //   },
-        //   primary: {
-        //     50: '#FEE9E7',
-        //     100: '#FDD3CF',
-        //     200: '#FBA79F',
-        //     300: '#F87B6F',
-        //     400: '#F65040',
-        //     500: '#F03F2B', // Main secondary
-        //     600: '#C03222',
-        //     700: '#90261A',
-        //     800: '#601911',
-        //     900: '#300D09',
-        //   },
-        // },
       },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
+      },
+      keyframes: {
+        'accordion-down': {
+          from: {
+            height: '0',
+          },
+          to: {
+            height: 'var(--radix-accordion-content-height)',
+          },
+        },
+        'accordion-up': {
+          from: {
+            height: 'var(--radix-accordion-content-height)',
+          },
+          to: {
+            height: '0',
+          },
+        },
+      },
+      animation: {
+        'accordion-down': 'accordion-down 0.2s ease-out',
+        'accordion-up': 'accordion-up 0.2s ease-out',
       },
     },
   },

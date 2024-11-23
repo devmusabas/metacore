@@ -68,8 +68,16 @@
     @apply border-border;
   }
 
+  html {
+    height: 100%;
+    /* Uncomment below line for header to cover over the scrollbar */
+    /* overflow: auto; */
+  }
+
   body {
     @apply bg-background text-foreground;
     @apply font-nunito;
+    @apply overflow-auto;
+    @apply h-full;
   }
 }
