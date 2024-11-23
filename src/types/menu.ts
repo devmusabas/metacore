@@ -1,5 +1,5 @@
 export type MenuItem = {
   title: string;
   href?: string;
-  submenu?: MenuItem[];
+  submenu?: Record<string, MenuItem>;
 };
