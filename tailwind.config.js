@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        nunito: ['Nunito", sans-serif'],
-        poppins: ['Poppins", sans-serif'],
+        nunito: ['"Nunito", sans-serif'],
+        poppins: ['"Poppins", sans-serif'],
       },
       screens: {
         xxs: '470px',
