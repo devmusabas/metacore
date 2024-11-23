@@ -137,7 +137,7 @@ devDependencies:
     specifier: ^15.2.10
     version: 15.2.10
   postcss:
-    specifier: ^8.4.44
+    specifier: ^8.4.45
     version: 8.4.45
   prettier:
     specifier: ^3.3.3
