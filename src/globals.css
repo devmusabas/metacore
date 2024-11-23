@@ -69,8 +69,6 @@
 
   html {
     height: 100%;
-    /* Uncomment below line for header to cover over the scrollbar */
-    /* overflow: auto; */
   }
 
   body {
