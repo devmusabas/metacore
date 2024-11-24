@@ -17,7 +17,6 @@ export default function ContactPage(): JSX.Element {
           <h2 className="mb-4 text-2xl font-semibold">Contact Information</h2>
           <p>Email: {content.contact.email}</p>
           <p>Phone: {content.contact.phone}</p>
-          <p>Address: {content.contact.address}</p>
         </div>
         <div>
           <h2 className="mb-4 text-2xl font-semibold">Send us a message</h2>
