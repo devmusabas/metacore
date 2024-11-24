@@ -68,8 +68,8 @@ const Header = (): JSX.Element => {
       {/* Backdrop */}
       <div
         className={cn(
-          'fixed inset-0 z-50 bg-black/80 transition-opacity duration-700 ease-in-out',
-          activeMenuItem ? 'opacity-100' : 'opacity-0'
+          'inset-0 z-50 bg-black/80 transition-opacity duration-700 ease-in-out',
+          activeMenuItem ? 'fixed opacity-100' : 'opacity-0'
         )}
         onClick={handleBackdropClick}
       />

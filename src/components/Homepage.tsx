@@ -9,20 +9,23 @@ export const Homepage: FC = () => {
     <>
       <div className="relative z-[0] mx-auto mt-[72px] max-w-[1663px]">
         <Image
-          className="z-20 m-0 mx-auto hidden p-0 xxs:block"
+          className="z-[51] m-0 mx-auto hidden p-0 xxs:block"
           src="/img/homepage-shaded.jpg"
           objectFit="cover"
           alt="lesson"
+          unoptimized
           width={1663}
-          height={1200}
+          height={950.6}
         />
+
         <Image
           className="z-20 m-0 mx-auto block p-0 xxs:hidden"
           src="/img/homepage.jpg"
           objectFit="cover"
           alt="lesson"
+          unoptimized
           width={1663}
-          height={1200}
+          height={950.6}
         />
         <div className="absolute left-0 top-1/2 z-[21] ml-0 hidden w-1/2 -translate-y-1/2 flex-col justify-start gap-2 rounded-2xl px-4 py-20 xxs:flex xs:ml-8 xs:bg-white/10 xs:py-6 sm:px-8 sm:py-10">
           <div className="flex flex-1 flex-col items-center justify-center gap-2 lg:gap-4">
@@ -61,11 +64,11 @@ export const Homepage: FC = () => {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <div>
               <h2 className="mb-4 text-2xl font-semibold">
-                {content.courses.title}
+                {content.subjects.title}
               </h2>
-              <p>{content.courses.content}</p>
+              <p>{content.subjects.content}</p>
               <ul className="mt-4 list-disc pl-5">
-                {content.courses.subjects.map((subject) => (
+                {content.subjects.list.map((subject) => (
                   <li key={subject}>{subject}</li>
                 ))}
               </ul>
