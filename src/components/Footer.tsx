@@ -1,11 +1,16 @@
-import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
+'use client';
+
+import { Facebook, Instagram, Linkedin, Mail } from 'lucide-react';
 import Link from 'next/link';
 
 import content from '@/utils/content.json';
 
+import Whatsapp from './icons/Whatsapp';
+import X from './icons/XIcon';
+
 const socialIcons = {
   facebook: Facebook,
-  twitter: Twitter,
+  twitter: X,
   instagram: Instagram,
   linkedin: Linkedin,
 };
@@ -19,23 +24,47 @@ export default function Footer(): JSX.Element {
             <h3 className="mb-4 text-xl font-bold">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/">Home</Link>
+                <Link href="/" passHref>
+                  Home
+                </Link>
               </li>
               <li>
-                <Link href="/courses">Our Courses</Link>
+                <Link href="/courses" passHref>
+                  Our Courses
+                </Link>
               </li>
               <li>
-                <Link href="/tutors">Our Tutors</Link>
+                <Link href="/tutors" passHref>
+                  Our Tutors
+                </Link>
               </li>
               <li>
-                <Link href="/get-started">Get Started</Link>
+                <Link href="/get-started" passHref>
+                  Get Started
+                </Link>
               </li>
             </ul>
           </div>
-          <div>
+          <div className="flex flex-col gap-1">
             <h3 className="mb-4 text-xl font-bold">Contact Us</h3>
-            <p>Email: {content.contact.email}</p>
-            <p>Phone: {content.contact.phone}</p>
+
+            <Link
+              className="flex items-center gap-2"
+              href="mailto:contact@metacoreducation.co.uk"
+              passHref
+            >
+              Email to us
+              <Mail size={22} />
+            </Link>
+
+            <Link
+              className="flex items-center gap-2"
+              href={`https://wa.me/${content.contact.phone.replace(/\D/g, '')}`}
+              passHref
+            >
+              Send us a message
+              <Whatsapp size={22} />
+            </Link>
           </div>
           <div>
             <h3 className="mb-4 text-xl font-bold">Follow Us</h3>
@@ -47,24 +76,24 @@ export default function Footer(): JSX.Element {
                       platform.toLowerCase() as keyof typeof socialIcons
                     ];
                   return (
-                    <a
-                      key={platform}
+                    <Link
                       href={url}
+                      key={platform}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-2xl"
+                      className="text-2xl transition-transform hover:scale-[1.1] hover:drop-shadow-[0_0_1px_rgb(250,250,250)] active:scale-[1] active:transition-none"
                     >
                       <Icon className="h-6 w-6" />
-                    </a>
+                    </Link>
                   );
                 }
               )}
             </div>
           </div>
         </div>
-        <div className="mt-8 text-center">
+        {/* <div className="mt-8 text-center">
           <p>&copy; 2023 MetaCORE Education. All rights reserved.</p>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
