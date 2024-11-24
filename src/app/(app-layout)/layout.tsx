@@ -14,26 +14,34 @@ import { Provider } from '@/components/Provider';
 // import { APP_HEADER_HEIGHT } from '@/constants';
 
 export const metadata: Metadata = {
-  title: 'EduTrack',
+  title: 'MetaCORE Education',
   description:
-    'We provide a platform for educators to track and analyze student progress.',
-  keywords: 'education,tracking,analytics,student,progress',
-  manifest: '',
+    'MetaCORE Education provides dedicated online tuition services to help students reach their full academic potential.',
+  keywords:
+    'MetaCORE Education,online tuition,academic support,personalized learning,student success,gsce,A-level,subject-specific tuition, optional subjects,initial assessment,tailored curriculum,student progress tracking, entoring services,experienced professionals,one-on-one tuition,subject expertise',
+  manifest: '/site.webmanifest',
   openGraph: {
-    title: 'EduTrack',
+    title: 'MetaCORE Education',
     description:
-      'We provide a platform for educators to track and analyze student progress.',
-    url: 'https://edutrack.com/',
+      'MetaCORE Education provides dedicated online tuition services to help students reach their full academic potential.',
+    url: 'https://metacoreeducation.com/',
     type: 'website',
-    siteName: 'EduTrack',
-    images: [{ url: 'https://edutrack.com/social-pfp.png' }],
+    siteName: 'MetaCORE Education',
+    images: [
+      {
+        url: 'https://metacoreeducation.com/social-pfp.png',
+        width: 800,
+        height: 600,
+        alt: 'MetaCORE Education Logo',
+      },
+    ],
   },
   twitter: {
-    card: 'summary',
-    title: 'EduTrack',
+    card: 'summary_large_image',
+    title: 'MetaCORE Education',
     description:
-      'We provide a platform for educators to track and analyze student progress.',
-    images: ['https://edutrack.com/social-pfp.png'],
+      'MetaCORE Education provides dedicated online tuition services to help students reach their full academic potential.',
+    images: ['https://metacoreeducation.com/social-pfp.png'],
   },
   icons: {
     icon: [
@@ -42,7 +50,7 @@ export const metadata: Metadata = {
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
     ],
-    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '192x192' }],
   },
 };
 
