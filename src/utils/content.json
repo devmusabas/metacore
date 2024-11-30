@@ -201,16 +201,6 @@
         "title": "Book an Assessment",
         "description": "Schedule your initial assessment to determine your current level and learning needs.",
         "buttonText": "Book Now"
-      },
-      {
-        "title": "View Our Study Plans",
-        "description": "Explore our range of study plans and choose the one that best fits your goals.",
-        "buttonText": "View Plans"
-      },
-      {
-        "title": "Join a Lesson",
-        "description": "Experience a trial lesson with one of our expert tutors.",
-        "buttonText": "Try a Lesson"
       }
     ]
   },
