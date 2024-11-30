@@ -48,7 +48,7 @@ const ValueCard = ({ value }: { value: MetacoreValue }): JSX.Element => {
     <div
       className={cn(
         'flex flex-col items-center p-5 text-center',
-        'rounded-xl bg-white',
+        'rounded-xl bg-metacore-secondary/5',
         'border border-metacore-primary/5 shadow-md',
         'w-[220px] space-y-3'
       )}
@@ -71,14 +71,14 @@ const ValueCard = ({ value }: { value: MetacoreValue }): JSX.Element => {
 
 const WhyMetacore = (): JSX.Element => {
   return (
-    <div className="mx-auto w-full max-w-5xl space-y-10 p-6">
+    <div className="bg-metacore-primary/2 mx-auto w-full max-w-[1663px] space-y-6 p-6 pt-12">
       <div className="space-y-4 text-center">
         <h2 className="text-3xl font-bold text-metacore-primary">
           {content.whyMetacore.title}
         </h2>
-        <p className="mx-auto max-w-2xl text-sm text-gray-600">
+        <h3 className="mx-auto max-w-2xl text-lg text-gray-600">
           {content.whyMetacore.content}
-        </p>
+        </h3>
       </div>
 
       <div className="flex flex-wrap justify-center gap-6 p-8">

@@ -2,12 +2,13 @@ import Image from 'next/image';
 
 import content from '@/utils/content.json';
 
+import ImageCarousel from './Carousel';
 import WhyMetacore from './WhyMetacore';
 
 export const Homepage: FC = () => {
   return (
-    <>
-      <div className="relative z-[0] mx-auto mt-[72px] max-w-[1663px]">
+    <div className="mx-auto max-w-[1663px]">
+      <div className="relative z-[0] mx-auto mt-[72px]">
         <Image
           className="z-[51] m-0 mx-auto hidden p-0 xxs:block"
           src="/img/homepage-shaded.jpg"
@@ -43,7 +44,7 @@ export const Homepage: FC = () => {
           </div>
         </div>
       </div>
-      <div className="">
+      <div>
         <div className="flex w-full flex-col justify-start gap-2 bg-metacore-secondary px-4 py-8 xxs:hidden">
           <div className="flex flex-1 flex-col items-center justify-center gap-2 lg:gap-4">
             <h3 className="text-center text-base font-bold text-metacore-primary">
@@ -59,8 +60,9 @@ export const Homepage: FC = () => {
             ))}
           </div>
         </div>
+        <ImageCarousel />
         <WhyMetacore />
-        <div className="mx-auto my-12 flex flex-col gap-8 px-8 pt-16 sm:px-16 sm:pt-24">
+        <div className="mx-auto flex flex-col gap-8 bg-metacore-secondary/5 px-8 py-8 sm:px-16 sm:pt-24">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <div>
               <h2 className="mb-4 text-2xl font-semibold">
@@ -105,6 +107,6 @@ export const Homepage: FC = () => {
         </div> */}
         </div>
       </div>
-    </>
+    </div>
   );
 };
