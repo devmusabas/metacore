@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     'MetaCORE Education provides dedicated online tuition services to help students reach their full academic potential.',
   keywords:
-    'MetaCORE Education,online tuition,academic support,personalized learning,student success,gsce,A-level,subject-specific tuition, optional subjects,initial assessment,tailored curriculum,student progress tracking, entoring services,experienced professionals,one-on-one tuition,subject expertise',
+    'MetaCORE Education,MetoCORE Academy,online tuition,academic support,personalized learning,student success,gsce,A-level,subject-specific tuition,optional subjects,initial assessment,tailored curriculum,student progress tracking,mentoring services,experienced professionals,one-on-one tuition,subject expertise',
   manifest: '/site.webmanifest',
   openGraph: {
     title: 'MetaCORE Education',
