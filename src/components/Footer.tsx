@@ -17,7 +17,7 @@ const socialIcons = {
 
 export default function Footer(): JSX.Element {
   return (
-    <footer className="mx-auto flex w-full flex-col gap-8 bg-gray-800 px-8 py-8 pt-12 text-white sm:px-16 sm:py-16 sm:pt-16">
+    <footer className="mx-auto flex w-full max-w-[1663px] flex-col gap-8 bg-gray-800 px-8 py-8 pt-12 text-white sm:px-16 sm:py-16 sm:pt-16">
       <div className="w-full">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
           <div>
@@ -33,11 +33,11 @@ export default function Footer(): JSX.Element {
                   Our Courses
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/tutors" passHref>
                   Our Tutors
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/get-started" passHref>
                   Get Started
@@ -53,7 +53,7 @@ export default function Footer(): JSX.Element {
               href="mailto:contact@metacoreducation.co.uk"
               passHref
             >
-              Email to us
+              Email us
               <Mail size={22} />
             </Link>
 
@@ -62,7 +62,7 @@ export default function Footer(): JSX.Element {
               href={`https://wa.me/${content.contact.phone.replace(/\D/g, '')}`}
               passHref
             >
-              Send us a message
+              Chat on WhatsApp
               <Whatsapp size={22} />
             </Link>
           </div>
