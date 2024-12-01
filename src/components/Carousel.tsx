@@ -64,7 +64,9 @@ const ImageCarousel: React.FC = () => {
   }, [expandedImage, handleKeyDown]);
 
   return (
-    <div className="relative mx-auto flex min-h-[443px] max-w-[1663px] items-center justify-center bg-metacore-secondary/70 px-16 py-24 md:px-24">
+    <div className="relative mx-auto flex min-h-[443px] max-w-[1663px] items-center justify-center border-b-4 border-b-metacore-secondary/80 px-16 py-24 md:px-24">
+      <div className="absolute bottom-1 w-full bg-metacore-primary/80 py-1.5" />
+      {/* <div className="absolute top-52 w-full bg-metacore-secondary py-0.5" /> */}
       {expandedImage && (
         <div
           className="fixed inset-0 z-[51] flex items-center justify-center bg-black bg-opacity-75"

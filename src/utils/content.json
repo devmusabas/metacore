@@ -32,13 +32,13 @@
         "content": "Our GCSE preparation courses are designed to help students excel in their exams. We offer comprehensive tutoring in all core subjects, including Mathematics, English, and Science. Our experienced tutors provide personalized support to ensure each student achieves their full potential. With tailored lesson plans, regular assessments, and one-on-one sessions, we focus on building a strong foundation and boosting confidence. Join us to achieve outstanding GCSE results."
       },
       {
-        "id": "aLevel",
+        "id": "a-level",
         "title": "A Level Preparation",
         "href": "/courses#a-level",
         "content": "Our A Level preparation courses are tailored to meet the needs of each student. We offer in-depth tutoring in a wide range of subjects, including Mathematics, Physics, Chemistry, Biology, and more. Our goal is to help students achieve top grades and secure their place at their desired university. With expert guidance, advanced study materials, and focused revision sessions, we ensure students are well-prepared for their A Level exams. Enroll now to excel in your A Levels."
       },
       {
-        "id": "subjectSpecific",
+        "id": "subject-specific",
         "title": "Subject-Specific Tuition",
         "href": "/courses#subject-specific",
         "content": "We provide subject-specific tuition to help students excel in their chosen fields. Whether it's advanced Mathematics, creative writing, or computer science, our expert tutors are here to provide the support and guidance needed to succeed. Our specialized courses are designed to deepen understanding, enhance skills, and foster a love for the subject. With customized lesson plans and interactive learning methods, we make learning engaging and effective. Discover the joy of mastering your favorite subjects with us."
@@ -100,7 +100,7 @@
     ]
   },
   "mentoring": {
-    "title": "Mentoring for Academic and Personal Growth",
+    "title": "Student Services & Mentoring",
     "content": "Our mentoring program is designed to support students' academic and personal growth. We provide guidance, encouragement, and support to help students navigate their academic journey and develop important life skills.",
     "list": [
       {
@@ -194,13 +194,14 @@
     ]
   },
   "getStarted": {
-    "title": "Get Started with MetaCORE Education",
+    "title": "Get Started",
     "content": "Begin your journey towards academic excellence with MetaCORE Education. Here's how to get started:",
     "steps": [
       {
-        "title": "Book an Assessment",
+        "title": "First Step to MetaCORE",
         "description": "Schedule your initial assessment to determine your current level and learning needs.",
-        "buttonText": "Book Now"
+        "buttonText": "Start",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSe7sesCWCLSSt0ePM8wXAz2ybzooCbseTg_fpzWFUidR4k7OA/viewform?fbzx=231045519439328001"
       }
     ]
   },

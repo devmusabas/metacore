@@ -62,7 +62,7 @@ export default function Footer(): JSX.Element {
               href={`https://wa.me/${content.contact.phone.replace(/\D/g, '')}`}
               passHref
             >
-              Chat on WhatsApp
+              WhatsApp
               <Whatsapp size={22} />
             </Link>
           </div>
