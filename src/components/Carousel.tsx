@@ -17,20 +17,28 @@ import {
 
 const carouselItems = [
   {
+    src: '/img/seasons-greetings.jpg',
+    alt: "Season's Greetings from Metacore",
+    width: 240,
+    height: 300,
+    className: 'max-md:pl-6',
+    fill: true,
+  },
+  {
+    src: '/img/flyer.jpg',
+    alt: 'Your path to success flyer',
+    width: 240,
+    height: 300,
+    className: 'max-md:pl-6',
+    fill: true,
+  },
+  {
     src: '/img/macbeth-flyer.jpg',
     alt: 'Macbeth Flyer',
     width: 240,
-    height: 339.46,
+    height: 300,
     className: '',
     fill: false,
-  },
-  {
-    src: '/img/flyer.jpeg',
-    alt: 'Flyer',
-    width: 285,
-    height: 368.83,
-    className: 'max-md:pl-6',
-    fill: true,
   },
 ];
 
