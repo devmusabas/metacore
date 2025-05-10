@@ -4,8 +4,6 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { X } from 'lucide-react';
 import Image from 'next/image';
 
-import { cn } from '@/lib/utils';
-
 import { Card, CardContent } from './ui/card';
 import {
   Carousel,
@@ -17,28 +15,20 @@ import {
 
 const carouselItems = [
   {
+    src: '/img/gcse-best-luck.jpg',
+    alt: 'Best of luck in GCSE to dear students from Metacore Education',
+  },
+  {
     src: '/img/seasons-greetings.jpg',
-    alt: "Season's Greetings from Metacore",
-    width: 240,
-    height: 300,
-    className: 'max-md:pl-6',
-    fill: true,
+    alt: "Season's Greetings from Metacore Education",
   },
   {
     src: '/img/flyer.jpg',
     alt: 'Your path to success flyer',
-    width: 240,
-    height: 300,
-    className: 'max-md:pl-6',
-    fill: true,
   },
   {
     src: '/img/macbeth-flyer.jpg',
     alt: 'Macbeth Flyer',
-    width: 240,
-    height: 300,
-    className: '',
-    fill: false,
   },
 ];
 
@@ -98,48 +88,47 @@ const ImageCarousel: React.FC = () => {
         <CarouselContent>
           {carouselItems.map((item, index) => (
             <CarouselItem key={index} className="relative">
-              <div>
-                <Card className="border-none bg-transparent py-0 shadow-none">
-                  <CardContent className="flex items-center justify-center py-0">
-                    <button onClick={() => handleExpand(item.src)}>
-                      <Image
-                        src={item.src}
-                        alt={item.alt}
-                        width={item?.fill ? undefined : item.width}
-                        height={item?.fill ? undefined : item.height}
-                        objectFit="contain"
-                        objectPosition="center"
-                        className={cn('relative', item.fill && 'max-md:pl-6')}
-                        fill={item.fill}
-                      />
-                    </button>
-                  </CardContent>
-                </Card>
-              </div>
+              <Card className="border-none bg-transparent shadow-none">
+                <CardContent className="flex items-center justify-center p-0">
+                  <button
+                    onClick={() => handleExpand(item.src)}
+                    className="overflow-hidden rounded-sm"
+                  >
+                    <Image
+                      src={item.src}
+                      alt={item.alt}
+                      width={240}
+                      height={300}
+                      style={{ objectFit: 'contain', objectPosition: 'center' }}
+                      className="relative"
+                    />
+                  </button>
+                </CardContent>
+              </Card>
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious variant="ghost" />
+        <CarouselNext variant="ghost" />
       </Carousel>
-      <div className="hidden w-fit md:flex">
+      <div className="hidden w-fit gap-4 p-1 md:flex">
         {carouselItems.map((item, index) => (
-          <div className="flex w-full gap-4 p-1" key={index}>
-            <Card className="h-full border-none bg-transparent">
-              <CardContent className="relative flex h-full items-center justify-center p-0 shadow-lg">
-                <button onClick={() => handleExpand(item.src)}>
-                  <Image
-                    src={item.src}
-                    alt={item.alt}
-                    width={item.width}
-                    height={item.height}
-                    objectFit="contain"
-                    objectPosition="center"
-                  />
-                </button>
-              </CardContent>
-            </Card>
-          </div>
+          <Card
+            key={index}
+            className="flex h-full w-full border-none bg-transparent"
+          >
+            <CardContent className="relative flex h-full items-center justify-center overflow-hidden rounded-sm p-0 shadow-lg">
+              <button onClick={() => handleExpand(item.src)}>
+                <Image
+                  src={item.src}
+                  alt={item.alt}
+                  width={240}
+                  height={300}
+                  style={{ objectFit: 'contain', objectPosition: 'center' }}
+                />
+              </button>
+            </CardContent>
+          </Card>
         ))}
       </div>
     </div>
