@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://metacoreeducation.co.uk/social-pfp.png',
-        width: 800,
+        width: 600,
         height: 600,
         alt: 'MetaCORE Education Logo',
       },
