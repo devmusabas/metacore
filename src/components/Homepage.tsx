@@ -12,21 +12,21 @@ export const Homepage: FC = () => {
         <Image
           className="z-[51] m-0 mx-auto hidden p-0 xxs:block"
           src="/img/homepage-shaded.jpg"
-          objectFit="cover"
           alt="lesson"
           unoptimized
           width={1663}
           height={950.6}
+          style={{ objectFit: 'cover' }}
         />
 
         <Image
           className="z-20 m-0 mx-auto block p-0 xxs:hidden"
           src="/img/homepage.jpg"
-          objectFit="cover"
           alt="lesson"
           unoptimized
           width={1663}
           height={950.6}
+          style={{ objectFit: 'cover' }}
         />
         <div className="absolute left-0 top-1/2 z-[21] ml-0 hidden w-1/2 -translate-y-1/2 flex-col justify-start gap-2 rounded-2xl px-4 py-20 xxs:flex xs:ml-8 xs:bg-white/10 xs:py-6 sm:px-8 sm:py-10">
           <div className="flex flex-1 flex-col items-center justify-center gap-2 lg:gap-4">
