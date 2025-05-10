@@ -24,12 +24,12 @@ export const metadata: Metadata = {
     title: 'MetaCORE Education',
     description:
       'MetaCORE Education provides dedicated online tuition services to help students reach their full academic potential.',
-    url: 'https://metacoreeducation.com/',
+    url: 'https://metacoreeducation.co.uk/',
     type: 'website',
     siteName: 'MetaCORE Education',
     images: [
       {
-        url: 'https://metacoreeducation.com/social-pfp.png',
+        url: 'https://metacoreeducation.co.uk/social-pfp.png',
         width: 800,
         height: 600,
         alt: 'MetaCORE Education Logo',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: 'MetaCORE Education',
     description:
       'MetaCORE Education provides dedicated online tuition services to help students reach their full academic potential.',
-    images: ['https://metacoreeducation.com/social-pfp.png'],
+    images: ['https://metacoreeducation.co.uk/social-pfp.png'],
   },
   icons: {
     icon: [
