@@ -15,6 +15,14 @@ import {
 
 const carouselItems = [
   {
+    src: '/img/metacore-ad.jpg',
+    alt: 'Metacore Education - Building Skills, Reaching Dreams ',
+  },
+  {
+    src: '/img/gcse-congrats.jpg',
+    alt: 'Congratulations for the GCSE results from Metacore Education',
+  },
+  {
     src: '/img/gcse-best-luck.jpg',
     alt: 'Best of luck in GCSE to dear students from Metacore Education',
   },
@@ -84,10 +92,13 @@ const ImageCarousel: React.FC = () => {
           />
         </div>
       )}
-      <Carousel className="mx-auto w-full max-w-[250px] md:hidden">
+      <Carousel className="mx-auto flex w-full max-w-[250px] md:max-w-full 2xl:hidden">
         <CarouselContent>
-          {carouselItems.map((item, index) => (
-            <CarouselItem key={index} className="relative">
+          {carouselItems.map((item) => (
+            <CarouselItem
+              key={item.alt}
+              className="relative md:basis-1/3 lg:basis-1/5"
+            >
               <Card className="border-none bg-transparent shadow-none">
                 <CardContent className="flex items-center justify-center p-0">
                   <button
@@ -111,7 +122,7 @@ const ImageCarousel: React.FC = () => {
         <CarouselPrevious variant="ghost" />
         <CarouselNext variant="ghost" />
       </Carousel>
-      <div className="hidden w-fit gap-4 p-1 md:flex">
+      <div className="hidden w-fit gap-4 p-1 2xl:flex">
         {carouselItems.map((item, index) => (
           <Card
             key={index}
