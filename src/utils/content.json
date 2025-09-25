@@ -202,6 +202,12 @@
         "description": "Schedule your initial assessment to determine your current level and learning needs.",
         "buttonText": "Start",
         "href": "https://docs.google.com/forms/d/e/1FAIpQLSe7sesCWCLSSt0ePM8wXAz2ybzooCbseTg_fpzWFUidR4k7OA/viewform?fbzx=231045519439328001"
+      },
+      {
+        "title": "MetaCORE Learner Portal",
+        "description": "To access the MetaCORE Learner Portal",
+        "buttonText": "Go to Login Page",
+        "href": "https://merithub.com/cvs09cr92kq852mkf6u0/join/h7tCtbe.moj7W5Xl-w8wJuGHTcaXfvkfDc60vYWDsW_3MZ8GIanvva3IWfVgAr6xguhPWXr8O8D1LVtctMQCqhaDyA3OJ77r"
       }
     ]
   },

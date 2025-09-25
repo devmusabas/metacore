@@ -111,6 +111,10 @@ export const menuItems: Record<string, MenuItem> = {
         title: 'Book an Assessment',
         href: '/get-started#assessment',
       },
+      learnerPortal: {
+        title: 'Learner Portal',
+        href: 'https://merithub.com/cvs09cr92kq852mkf6u0/join/h7tCtbe.moj7W5Xl-w8wJuGHTcaXfvkfDc60vYWDsW_3MZ8GIanvva3IWfVgAr6xguhPWXr8O8D1LVtctMQCqhaDyA3OJ77r',
+      },
       //   viewStudyPlans: {
       //     title: 'View Our Study Plans',
       //     href: '/get-started#plans',

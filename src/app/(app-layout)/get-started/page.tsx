@@ -11,11 +11,16 @@ export default function GetStartedPage(): JSX.Element {
         {content.getStarted.title}
       </h1>
       <p className="mb-8 text-lg">{content.getStarted.content}</p>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+      <div className="flex flex-col items-center gap-8 md:flex-row md:items-start">
         {content.getStarted.steps.map((step) => (
-          <div key={step.title} className="rounded-lg bg-white p-6 shadow-md">
-            <h2 className="mb-4 text-2xl font-semibold">{step.title}</h2>
-            <p className="mb-4">{step.description}</p>
+          <div
+            key={step.title}
+            className="flex min-h-60 max-w-80 flex-col justify-between rounded-lg bg-white p-6 shadow-md"
+          >
+            <>
+              <h2 className="mb-4 text-2xl font-semibold">{step.title}</h2>
+              <p className="mb-4">{step.description}</p>
+            </>
             <Button>
               <Link
                 href={step?.href || '#'}
