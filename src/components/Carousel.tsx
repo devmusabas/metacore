@@ -15,6 +15,10 @@ import {
 
 const carouselItems = [
   {
+    src: '/img/macbeth-2025.jpg',
+    alt: 'Macbeth Online Classes starting on 28th November 2024',
+  },
+  {
     src: '/img/metacore-ad.jpg',
     alt: 'Metacore Education - Building Skills, Reaching Dreams ',
   },
