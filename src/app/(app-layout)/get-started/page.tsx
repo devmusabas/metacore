@@ -17,15 +17,15 @@ export default function GetStartedPage(): JSX.Element {
             key={step.title}
             className="flex min-h-60 max-w-80 flex-col justify-between rounded-lg bg-white p-6 shadow-md"
           >
-            <>
-              <h2 className="mb-4 text-2xl font-semibold">{step.title}</h2>
-              <p className="mb-4">{step.description}</p>
-            </>
+            <h2 className="mb-4 text-2xl font-semibold">{step.title}</h2>
+            <p className="mb-4">{step.description}</p>
+
             <Button>
               <Link
                 href={step?.href || '#'}
                 passHref
                 target="_blank"
+                className="h-full w-full"
                 rel="noopener noreferrer"
               >
                 {step.buttonText}
