@@ -1,4 +1,8 @@
-import type { FunctionComponent, PropsWithChildren } from 'react';
+import type {
+  FunctionComponent,
+  PropsWithChildren,
+  JSX as ReactJSX,
+} from 'react';
 
 declare global {
   export type FC<P = Record<string, unknown>> = FunctionComponent<P>;
@@ -8,4 +12,9 @@ declare global {
   >;
 
   export type WC<P = Record<string, unknown>> = PropsWithChildren<P>;
+
+  namespace JSX {
+    type Element = ReactJSX.Element;
+    type IntrinsicElements = ReactJSX.IntrinsicElements;
+  }
 }
